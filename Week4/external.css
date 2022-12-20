@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Open+Sans&family=Rubik+Vinyl&display=swap');
+h1{
+    background-color:beige;
+    font-size:40px;
+    color:black;
+    font-family: 'Rubik Vinyl', cursive;
+}
+p{
+    background-color:rgb(78, 123, 175);
+    font-size: 30px;
+    color: azure;
+    font-family: 'La Belle Aurore', cursive;
+}

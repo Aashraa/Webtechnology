@@ -1,0 +1,42 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*for laptop */
+@media screen and (min-width:769px)and (max-width:1024px){
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+/* for tablets */
+@media screen and (min-width:481px)and (max-width:768px){
+    img{
+        max-width: 100%;
+        height:auto;
+    }
+    p{
+        background-color:bisque;
+        font-size:20px ;
+        color:brown;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+}
+/* for mobiles */
+@media screen and (min-width:320px)and (max-width:480px){
+    img{
+        max-width: 100%;
+        height:auto;
+    }
+    p{
+        background-color:rgb(66, 132, 246);
+        font-size:20px ;
+        color:rgb(244, 179, 179);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+}

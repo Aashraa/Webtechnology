@@ -1,0 +1,27 @@
+
+body{
+    /* background:linear-gradient(to left,white, pink , rgb(245, 146, 162));
+ */background-image:url("pexels-element-digital-1470171 (1).jpg") ;
+  background-size: cover;
+  background-position: center;
+ background-attachment: fixed;
+}
+#heading{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(70, 34, 34);
+    font-size:50px;
+}
+.paragraph{
+    background:linear-gradient(rgb(203, 209, 216) , rgb(94, 159, 220), rgb(33, 110, 225));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(244, 244, 245);
+    font-size:30px;
+}
+#P2{
+    background-color: rgb(162, 93, 134);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color:rgb(145, 150, 166);
+    font-size:20px;
+}
