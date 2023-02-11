@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=La+Belle+Aurore&family=Open+Sans&family=Oswald:wght@300&family=Rubik+Gemstones&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(178,172,136);
+    color: rgb(246, 246, 203);
+}
+    .options{
+    /* background-color:beige; */
+    overflow: hidden;
+    /* color: beige; */
+    top:10px;
+    position: fixed;
+    /* margin-top:30px; */
+    margin-left:1000px;
+}
+.options a{
+    /* float:left; */
+    text-align:center;
+    
+    font-size: 25px;
+}
+.options a:link{
+    color: rgb(211, 200, 239);
+}
+.options a:visited{
+    color: rgb(246, 246, 203);
+}
+.options a:hover{
+    
+        background-color: beige;
+        color: rgb(126, 149, 114);
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+    }
+#see{
+    margin-left: 10px;
+    margin-top: 120px; 
+    font-size:20px;
+}
+#school{
+    width: 700px;
+    height:500px;
+    border-radius: 0;
+    margin-left: 800px;
+    margin-top: -310px;
+}
+#p1{
+    font-size: 40px;
+    margin-top: 70px;
+}
+#college{
+    width: 700px;
+    height:500px;
+    border-radius: 0;
+    margin-left: 800px;
+    margin-top: -320px;
+}
+#high{
+    margin-left: 10px;
+    margin-top: 100px; 
+    font-size:20px;
+}
+#ongoing{
+    margin-left: 10px;
+    margin-top: 100px; 
+    font-size:20px;
+}
+#bach{
+    width: 700px;
+    height:500px;
+    border-radius: 0;
+    margin-left: 800px;
+    margin-top: -320px;
+}
+/* for tablets */
+@media screen and (min-width:481px)and (max-width:768px){
+    .options {
+        /* background-color: beige; */
+        /* overflow: hidden; */
+        /* color: beige; */
+        top: 10px;
+        position: fixed;
+        /* margin-top: 30px; */
+        margin-left: 552px;
+    }
+    #see {
+        margin-left: 4px;
+        margin-top: 120px;
+        font-size: 15px;
+    }
+    #school {
+        width: 492px;
+        height: 387px;
+        border-radius: 0;
+        margin-left: 397px;
+        margin-top: -260px;
+    }
+    #high{
+        margin-left: 4px;
+        margin-top: 120px;
+        font-size: 15px;
+    }
+    #college {
+        width: 492px;
+        height: 387px;
+        border-radius: 0;
+        margin-left: 397px;
+        margin-top: -260px;
+    }
+    #ongoing {
+        margin-left: 4px;
+        margin-top: 120px;
+        font-size: 15px;
+    }
+    #bach {
+        width: 492px;
+        height: 387px;
+        border-radius: 0;
+        margin-left: 397px;
+        margin-top: -260px;
+    }
+}
+/* for mobiles */
+@media screen and (min-width:320px)and (max-width:480px){
+    .options {
+        font-size: 146px;
+        /* background-color: beige; */
+        overflow: inherit;
+        /* color: beige; */
+        top: 10px;
+        position: fixed;
+        margin-top: -52px;
+        margin-left: 5px;
+        line-height: 0px;
+    }
+    .options a {
+        /* float: left; */
+        text-align: center;
+        font-size: 16px;
+    }
+    #p1 {
+        font-size: 36px;
+        margin-top: 79px;
+    }
+    #see {
+        margin-left: 6px;
+        margin-top: 19px;
+        font-size: 12px;
+    }
+    #school {
+        width: 94%;
+        height: 132%;
+        border-radius: 0;
+        margin-left: 8px;
+        margin-top: 21px;
+    }
+    #high{
+        margin-left: 6px;
+        margin-top: 19px;
+        font-size: 12px;
+    }
+    #college {
+        width: 94%;
+        height: 132%;
+        border-radius: 0;
+        margin-left: 8px;
+        margin-top: 21px;
+    }
+    #ongoing {
+        margin-left: 6px;
+        margin-top: 19px;
+        font-size: 12px;
+    }
+    #bach{
+        width: 94%;
+        height: 132%;
+        border-radius: 0;
+        margin-left: 8px;
+        margin-top: 21px;
+    }
+}
+

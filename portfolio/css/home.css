@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caramel&family=La+Belle+Aurore&family=Open+Sans&family=Oswald:wght@300&family=Rubik+Gemstones&display=swap');
+
+body{
+    background-color: rgb(178,172,136);
+    color: rgb(246, 246, 203);
+    width: 100%;
+    margin:auto;
+    height: 750px;
+    font-family: 'Oswald', sans-serif;
+}
+img{
+    height:100%;
+    width:40%;
+    margin-left: 60%;
+    margin-top:-490px;
+}
+.info{
+    margin-left: 40px;
+    margin-top: 200px;
+    text-transform: capitalize;
+    font-size:28px;
+    overflow: hidden;
+    
+    line-height: 90px;
+}
+.options{
+    /* background-color:beige; */
+    /* overflow: hidden; */
+    /* color: beige; */
+    top:10px;
+    position: fixed;
+    /* margin-top:30px; */
+    margin-left:1000px;
+}
+.options a{
+    /* float:left; */
+    text-align:center;
+    
+    font-size: 25px;
+}
+.options a:link{
+    color: rgb(211, 200, 239);
+}
+.options a:visited{
+    color: rgb(246, 246, 203);
+}
+.options a:hover{
+    
+        background-color: beige;
+        color: rgb(126, 149, 114);
+}
+footer{
+    text-align: center;
+
+}
+/* for tablets */
+@media screen and (min-width:481px)and (max-width:768px){
+    .options {
+        /* background-color: beige; */
+        /* overflow: hidden; */
+        /* color: beige; */
+        top: 10px;
+        position: fixed;
+        /* margin-top: 30px; */
+        margin-left: 552px;
+    }
+    .info {
+        margin-left: 14px;
+        margin-top: 200px;
+        text-transform: capitalize;
+        font-size: 23px;
+        overflow: hidden;
+        font-family: 'Oswald', sans-serif;
+        line-height: 90px;
+    }
+    img {
+        height: 67%;
+        width: 40%;
+        margin-left: 60%;
+        margin-top: -454px;
+    }
+}
+/* for mobiles */
+@media screen and (min-width:320px)and (max-width:480px){
+    .options {
+        font-size: 146px;
+        /* background-color: beige; */
+        overflow: inherit;
+        /* color: beige; */
+        top: 10px;
+        position: fixed;
+        margin-top: -52px;
+        margin-left: 5px;
+        line-height: 0px;
+    }
+    .options a {
+        /* float: left; */
+        text-align: center;
+        font-size: 16px;
+    }
+    img {
+        height: 64%;
+        width: 94%;
+        margin-left: 3%;
+        margin-top: -27px;
+    }
+    .info {
+        margin-left: 27px;
+        margin-top: 51px;
+        text-transform: capitalize;
+        font-size: 28px;
+        overflow: hidden;
+        font-family: 'Oswald', sans-serif;
+        line-height: 90px;
+    }
+}
+
+

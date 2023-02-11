@@ -1,0 +1,1 @@
+document.getElementById("about").style.cssText="color:beige;background-color: rgb(171, 179, 175)";
